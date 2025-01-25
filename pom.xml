@@ -25,8 +25,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <source>11</source>
-          <target>11</target>
+          <source>1.8</source> <!-- Changed from 11 to 1.8 -->
+          <target>1.8</target> <!-- Changed from 11 to 1.8 -->
         </configuration>
       </plugin>
       <plugin>
@@ -115,12 +115,6 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
-    <!--
-    paper-api: io.papermc.paper
-    paper-api (<= 1.16): com.destroystokyo.paper
-    spigot-api: org.spigotmc
-    bukkit: org.bukkit
-    -->
     <dependency>
       <groupId>io.papermc.paper</groupId>
       <artifactId>paper-api</artifactId>
